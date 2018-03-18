@@ -11,24 +11,28 @@ The transformation does not nececessily have to be any connections to block chai
 
 Crytocurrency encourages risk taking of extra efforts for better quality. Not just the number increase in personal balance account is a psychological reward but also the potential possibility of cashing out through standard on the Earth reward system. Benefits or penalities of anomymity nature of cryptocurrency in this application is arguable but should not be a big concern either way. On the other hand, it opens an opporutnity to encourage those who endorses final schedule and work assignments to allow more risk taking because the protocol can be designed to reduce their balance otherwise.
 
-Besides quality improvement efforts would be rewarded as a balance increase, unintentional consequences of compromising quality from undisciplined operation could result in balance deduction. How much the system should apply this would require a thoughtful consideration. Apparently it should not hurt the positive encouragement especially in the early phase when the system rolls out.  
+Besides quality improvement efforts would be rewarded as a balance increase, unintentional consequences of compromising quality from undisciplined operation could result in balance deduction. How much the system should apply this would require a thoughtful consideration. Apparently it should not hurt the positive encouragement especially in the early phase when the system rolls out. 
+
+The decentralized ledger plays as a place to store all quality efforts. It helps every inhabitants to view what's going on in the society. There are various types of activities aiming at quality improvement. These activities happens everywhere in the stack. The underlying blockchain mandates a broadcast of these activities because if you do not do, the activities would not be appreciated, be rectified and stored in the chain. This is soemthing like ISFS and it's actually the Modal, so it makes it easy to develop a Viewer to scale in/out the evovlement of Apogeios quality.
 
 Another subtle benefit reside in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold.
 
-# consensus protocol
-There are a few requirements for consensus protocol design.
+# Consensus protocol
+There are a few considerations in this consensus protocol design.
 
 1. PoS or PoW. PoW is certainly out of question. PoS, on the other hand, requires thoughful consideration to ensure economic incentives and penalites are effective.
-2. Miners. Who, how, awards?
 
-Finality is not a concern of the cyptocurrency design. The individual or group of inhabitant to conduct the efforts can choose to be anonymous or not. All quality efforts take days or weeks or months to complete. Final ownership will be claimed only when the efforts are completed.
+2. Miners. Who, how, how many awards and penalties?
 
-Attacks are out of question.
+3. Finality is in gernal not a concern of this cyptocurrency design. The individual or group of inhabitant to conduct the efforts can choose to be anonymous or not. All quality efforts take days or weeks or months to complete. Final ownership will be claimed only when the efforts are completed, and that's when finality is supposed to achieve. However, odd is after a period of time the completed quality efforts is proved to be of not that useful (does not worth that much rewards) or in the worst case an incorrect one. It's probably not a good choice to reverse the finality already made before, because that would essentially mean a hard fork of the chain from where the finality is written in the chain. There are various options to handle the situation. One can be automatically add a transaction to transfer the balance of those inhabitants to VOID - like a write-off. Another one can be requiring more stake or reducing the weight in the next round of concensus.
 
-# challenges
+4. Attacks are out of question.
 
-1. Interoperability with existing tools/process.
+# Challenges
+
+1. Interoperability with existing tools/process. In the best case, the cryptocurrency system should just run in the background and be transparent as much as possible. Considering there are already many systems running in daily life of every inhabitant, adding one more would not entirely build a momentum (of course someone could argue that the marginal cost is very low so it does not matter).
 
 2. Psychological safety. This is an interesting experiment to pratice some rigid logic/science in management art. Psychological safety could be a major concern for all inhabitants. Inhabitants could easily connect the amount of cryptocurrency in their balance account to their performance on the Earth. On the other hand, if inhabitants take this easy as a game w/o concerns of real on the Earth penalities and rewards, it makes it easy for the quality sense interlization.
 
-3. Inflation.
+3. Inflation. In genearl, we want to see the total value of the crptocurrency system increase linearly to the population of inhabitants. It does not have to be similar to the knowledge explosion people see on the Earth, because at least internal quality efforts would be getting harder and harder, and contribution from internalization would be approaching to zero. However the growth of ecosystem could be explosive, which offset the other two contributors.
+ 
