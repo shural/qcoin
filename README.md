@@ -15,7 +15,7 @@ Besides quality improvement efforts would be rewarded as a balance increase, uni
 
 The decentralized ledger plays as a place to store all quality efforts. It helps every inhabitants to view what's going on in the society. There are various types of activities aiming at quality improvement. These activities happens everywhere in the stack. The underlying blockchain mandates a broadcast of these activities because if you do not do, the activities would not be appreciated, be rectified and stored in the chain. This is soemthing like ISFS and it's actually the Modal, so it makes it easy to develop a Viewer to scale in/out the evovlement of Apogeios quality.
 
-Another subtle benefit reside in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold.
+Another subtle benefit reside in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold. In other words, this is essentially the direct mapping from total value of the cryptocurrency economy to the sense of quality in Apogeios society.
 
 # Consensus protocol
 There are a few considerations in this consensus protocol design.
@@ -26,11 +26,15 @@ There are a few considerations in this consensus protocol design.
 
    Clearly miners, in the case of PoS, validators vote on the next block. Natural enough, the validator who has the biggest size of deposit get the biggest weight. Validators are rewarded for their service to the chain. The inhabitant(s) initiating the quality efforts would be joining the validator group by default. 
    
-   Fun part here is about the bet. Using code review as one example, if the validators bet on the effort (as promosing for better quality) and put it in a block, they will get incentives later when the code change eventually pass tests; otherwise they get penalized losing some of their stakes. This is almost like a smart contract of post mortem. It does not require to duplicate the existing code review efforts - those are still off chain data, however it fills in the gap in the past that nobody would look back at why a code review fails gating some easy failures.
+   Fun part here is about the bet. Using code review as one example, if the validators bet on the effort (as promosing for better quality) and put it in a block, they will get incentives later when the code change eventually pass tests; otherwise they get penalized losing some of their stakes (to those who bet otherwise as one option). This is almost like a smart contract of post mortem. It does not require to duplicate the existing code review efforts - those are still off chain data, however it fills in the gap in the past that nobody would look back at why a code review fails gating some easy failures.
+   
+   In the same code review case, it is arguable that penalizing validators for failing regression tests would demotivate validators to look at the quality metrics that could not be measured by tests. Actually this is not a zero sum game. The protocol can be designed to support both. For example, if the initiator's first submission of code/design change fails automatic tool check on quality, corresponding balance could be decreased. If later on the approved design proved to be not good enough, all validators who bet on the efforts would get penalized.
 
 3. Finality is in gernal not a concern of this cyptocurrency design. The individual or group of inhabitant to conduct the efforts can choose to be anonymous or not. All quality efforts take days or weeks or months to complete. Final ownership will be claimed only when the efforts are completed, and that's when finality is supposed to achieve. However, odd is after a period of time the completed quality efforts is proved to be of not that useful (does not worth that much rewards) or in the worst case an incorrect one. It's probably not a good choice to reverse the finality already made before, because that would essentially mean a hard fork from where the finality is written in the chain. There are various options to handle the situation. One can be automatically add a transaction to transfer the balance of those inhabitants to VOID - like a write-off. Another one can be requiring more stake or reducing the weight in the next round of concensus.
 
-4. Attacks are out of question.
+4. Attacks are out of question. This is a game afterall.
+
+5. Confidentiality. Like regular cryptocurrency, the address of each inhabitant is a hashed public key created from a private key only the inhabitant knows. A blockchain viewer can only list account balance but does not know which inhabitant actually owns the account. This is probably mostly wanted because it could lead to discouragement when everyone sees everyone else's account - this is an unecessary competition.
 
 # Challenges
 
@@ -46,3 +50,12 @@ There are a few considerations in this consensus protocol design.
 
 4. Wire money. Inhabitants get incentives from doing extra/better work about quality, and receive pelnaties for doing counter things. Wiring moneny among them, on the other hand, does not carry explicit meaning. Could it be just something like a master coaching an apprentice passing knowledge and now in this case it's the cryptocurrency?
  
+# Implementation considerations
+
+1. Apparently this must be a private blockchain as all quality efforts recorded in the chain are confined in the context of Apogeios.
+
+2. It appears that Ethereum is the platform of choice.
+
+3. The implementation must be OS agonostic.
+
+4. Notification. Each inhabitant should receive a daily report of his/her balance. A NPC like agent can be implemented to scan through the full blockchain and accumulate efforts related to certain (anonymous) inhabitant and send over the balance. However because the real identity of the inhabitant is encrypted, the NPC agent can only post all balances in a public billboard.
