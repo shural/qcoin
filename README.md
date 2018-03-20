@@ -17,8 +17,11 @@ The decentralized ledger plays as a place to store all quality efforts. It helps
 
 Another subtle benefit reside in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold. In other words, this is essentially the direct mapping from total value of the cryptocurrency economy to the sense of quality in Apogeios society.
 
+# Activities
+Major types of activities/efforts ... 
+
 # Consensus protocol
-There are a few considerations in this consensus protocol design.
+There are a few considerations in this design of consensus protocol (in other words, rules to enforce in the crypto economy).
 
 1. PoS or PoW. PoW is certainly out of question. PoS, on the other hand, requires thoughful consideration to ensure economic incentives and penalites are effective.
 
@@ -44,12 +47,26 @@ There are a few considerations in this consensus protocol design.
 
    Moreover, to make it more complex, one quality improvement typically involves multiple actions and interacts with multiple systems. It's arguable each action/interaction could stand alone. Flexiblity must be allowed in the design to pack multiple actions/interactions into a mega one for concensus. 
 
-2. Psychological safety. This is an interesting experiment to pratice some rigid logic/science in management art. Psychological safety could be a major concern for all inhabitants. Inhabitants could easily connect the amount of cryptocurrency in their balance account to their performance on the Earth. On the other hand, if inhabitants take this easy as a game w/o concerns of real on the Earth penalities and rewards, it makes it easy for the quality sense interlization.
+2. Psychological safety
+
+   This is an interesting experiment to pratice some rigid logic/science in management art. Psychological safety could be a major concern for all inhabitants. Inhabitants could easily connect the amount of cryptocurrency in their balance account to their performance on the Earth. On the other hand, if inhabitants take this easy as a game w/o concerns of real on the Earth penalities and rewards, it makes it easy for the quality sense interlization.
+   
+   There is argument about a direct mapping from on-chain identity to off-chain real identity on Earth is more effective for promoting sense of quality. The thinking claims authorities on Earth can better recognize those who have more balance and discipline those who have less. This essentially discourages the innate motivation of being better.
 
 3. Inflation. In genearl, we want to see the total value of the crptocurrency system increase linearly to the population of inhabitants. It does not have to be similar to the knowledge explosion people see on the Earth, because at least internal quality efforts would be getting harder and harder, and contribution from internalization would be approaching to zero. However the growth of ecosystem could be explosive, which offset the other two contributors.
 
 4. Wire money. Inhabitants get incentives from doing extra/better work about quality, and receive pelnaties for doing counter things. Wiring moneny among them, on the other hand, does not carry explicit meaning. Could it be just something like a master coaching an apprentice passing knowledge and now in this case it's the cryptocurrency?
- 
+
+5. Explicit/implicit impact
+
+   There are various types of activities/efforts affecting the quality. Some are explicit - impacts are obvious, and these impacts are mostly negative. For example, a code review only cares about coding standard, or a code change breaks complexity check, or a check-in includes multiple indepedent features or bug fixes. These activities may or may not incur incentives or pelnaties depending on how aggresive the system is designed. It is very aggressive if the system automatically write-off some balance as long as the code change fails complexity check no matter the change has been raised for code review - this clearly will requires the inhabitant to check by himself/herself before submitting, and to some extent indicates the inhabitant has more sense of quality. It is very conservative if the system does not even penalize a check-in including multiple fixes as long as it does not incur any regression.
+
+   The challenge gets bigger when the activity's impact on quality is implicit. This can be the most likely case in the beginning because that's where the society starts to ramp up on quality. There are only few inhabitants called as quality guru who knows more about quality than most others. They infuence others and increases the probability of a success bet on block. However they may not get involved as validator in all cases so in the case of absence the remaining validators actually put on bet blindly until later the impact emerges. It's also possible that guru might not be able to articulate quality impact as others for some cases. In both situations, a mechanism is required to adjust the amount of incentives/penalities for simliar cases in the future. This is probably an automatic system suggestion about the amount based on historical data.
+   
+6. Economy healthy metrics
+
+   Parameters of consensus protocol might change if the cryto economy does not run as expected. It requires more research on healthy metrics of an economic system. And even if the metrics are known and there are tools to evaluate the metrics, the correlation to consensus protocol parameters is hard to identify. A BP like approach might be too costly.
+   
 # Implementation considerations
 
 1. Apparently this must be a private blockchain as all quality efforts recorded in the chain are confined in the context of Apogeios.
