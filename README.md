@@ -13,12 +13,17 @@ Crytocurrency encourages risk taking of extra efforts for better quality. Not ju
 
 Besides quality improvement efforts would be rewarded as a balance increase, unintentional consequences of compromising quality from undisciplined operation could result in balance deduction. How much the system should apply this would require a thoughtful consideration. Apparently it should not hurt the positive encouragement especially in the early phase when the system rolls out. 
 
-The decentralized ledger plays as a place to store all quality efforts. It helps every inhabitants to view what's going on in the society. There are various types of activities aiming at quality improvement. These activities happens everywhere in the stack. The underlying blockchain mandates a broadcast of these activities because if you do not do, the activities would not be appreciated, be rectified and stored in the chain. This is soemthing like ISFS and it's actually the Modal, so it makes it easy to develop a Viewer to scale in/out the evovlement of Apogeios quality.
+The decentralized ledger plays as a place to store all quality efforts. It helps every inhabitants to view what's going on in the society. There are various types of activities aiming at quality improvement. These activities happens everywhere in the stack. The underlying blockchain mandates a broadcast of these activities because if you do not do, the activities would not be appreciated, be rectified and stored in the chain. This is soemthing like ISFS and it's actually the Modal, so it makes it easy to develop a Viewer to zoom in/out the evovlement of Apogeios quality.
 
 Another subtle benefit reside in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold. In other words, this is essentially the direct mapping from total value of the cryptocurrency economy to the sense of quality in Apogeios society.
 
 # Activities
-Major types of activities/efforts ... 
+Major types of activities/efforts ... Literally all engineering activities and associated decisions have more or less impact on quality. Pointers to these activities and decisions need to be put on the blockchain.
+
+* design review
+* code review/inspection
+* Dev ULT
+* 
 
 # Consensus protocol
 There are a few considerations in this design of consensus protocol (in other words, rules to enforce in the crypto economy).
@@ -76,3 +81,5 @@ There are a few considerations in this design of consensus protocol (in other wo
 3. The implementation must be OS agonostic.
 
 4. Notification. Each inhabitant should receive a daily report of his/her balance. A NPC like agent can be implemented to scan through the full blockchain and accumulate efforts related to certain (anonymous) inhabitant and send over the balance. However because the real identity of the inhabitant is encrypted, the NPC agent can only post all balances in a public billboard.
+
+5. Must note that the intention is not to move the properties onto the blockchain. Instead, each "transcation" in the chain includes a pointer linking to the corresponding physical records in whichever systems.
