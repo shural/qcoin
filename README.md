@@ -20,10 +20,13 @@ Another subtle benefit reside in the essence of any currency. Currency is all ab
 # Activities
 Major types of activities/efforts ... Literally all engineering activities and associated decisions have more or less impact on quality. Pointers to these activities and decisions need to be put on the blockchain.
 
-* design review
-* code review/inspection
-* Dev ULT
-* 
+* Design review
+* Code review/inspection
+* Dev ULT review
+   
+   Out of question the importance of Dev ULT. However it's essentially incorrect to measure the quality of Dev ULT by code coverage. Intuitively, this is just not right - the quality of art of programming cannot be judged by some stupid cold tools. Martin Fowler explained in [readable language](https://www.martinfowler.com/bliki/TestCoverage.html) that test coverage is simply for finding untested code rather than as a measurement of quality.
+   
+* Smart validation review
 
 # Consensus protocol
 There are a few considerations in this design of consensus protocol (in other words, rules to enforce in the crypto economy).
@@ -71,6 +74,8 @@ There are a few considerations in this design of consensus protocol (in other wo
 6. Economy healthy metrics
 
    Parameters of consensus protocol might change if the cryto economy does not run as expected. It requires more research on healthy metrics of an economic system. And even if the metrics are known and there are tools to evaluate the metrics, the correlation to consensus protocol parameters is hard to identify. A BP like approach might be too costly.
+   
+   The seperation of cryptoeconomy from the things on Earth is actually a good thing. This opens an opporutnity to identify the discrepencies. For example, if the total value of crytoeconomy grows but SW stack quality drops, something is wrong in cryptoeconomy, probably because of incorrect incentivies and/or penalities on various quality activities.
    
 # Implementation considerations
 
