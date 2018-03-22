@@ -24,10 +24,26 @@ Major types of activities/efforts ... Literally all engineering activities and a
 * Code review/inspection
 * Dev ULT review
    
-   Out of question the importance of Dev ULT. However it's essentially incorrect to measure the quality of Dev ULT by code coverage. Intuitively, this is just not right - the quality of art of programming cannot be judged by some stupid cold tools. Martin Fowler explained in [readable language](https://www.martinfowler.com/bliki/TestCoverage.html) that test coverage is simply for finding untested code rather than as a measurement of quality.
+   Out of question the importance of Dev ULT. However it's incorrect to measure the quality of Dev ULT ONLY by code coverage. Intuitively, this is just not right - the quality of art of programming cannot be judged by some stupid cold tools. Even setting a hard level of coverage would be inducing undesired behaviors. Martin Fowler explained in [readable language](https://www.martinfowler.com/bliki/TestCoverage.html) that test coverage is simply for finding untested code rather than as a measurement of quality. The AssertionFree testing is just hilarious about 100% coverage but testing nothing. Another example of 100% coverage but not telling the truth of quality is that the code logic itself is incomplete so a 100% coverage only takes care of the existing code. In the same blog, Martin talks about two conditions of enough testing:
+   
+      * You rarely get bugs that escape into production AND
+      * You are rarely hesitant to change some code for fear it will cause production bugs.
+      
+   Said that, code coverage is still a good reference. A very low ULT coverage is very concerning. But note the subtle difference between expecting a high level of coverage and requiring one. This is exactly like when PM requests 98% PR and they would just get a number around that.
+   
+   For Dev ULT which is white box test, developer should know the best (if not, the team should) the amount of testing necessary depends on a number of factors, and the developer is expected to know those factors better than others – it’s his/her code after all. There is no single, simple, answer, and the developer is expected to be smart enough to handle the truth and work with that.
    
 * Smart validation review
+* Validation plan review
 
+   Some of these activities involve automatic tools to measure certain aspect of quality (e.g., code coverage, complexity). This will possibly help a quickly converged concensus, however there are many cases it cannot and therefore the review of a team consisting of experienced members is required. 
+   
+   There are many other activities that reflect the sense of quality. Below are some examples. Simple results can be used to check the quality automatically. 
+
+* Continuous integration as check-ins of smaller granularity
+* Accuracy of documentation
+* ......
+   
 # Consensus protocol
 There are a few considerations in this design of consensus protocol (in other words, rules to enforce in the crypto economy).
 
@@ -76,6 +92,8 @@ There are a few considerations in this design of consensus protocol (in other wo
    Parameters of consensus protocol might change if the cryto economy does not run as expected. It requires more research on healthy metrics of an economic system. And even if the metrics are known and there are tools to evaluate the metrics, the correlation to consensus protocol parameters is hard to identify. A BP like approach might be too costly.
    
    The seperation of cryptoeconomy from the things on Earth is actually a good thing. This opens an opporutnity to identify the discrepencies. For example, if the total value of crytoeconomy grows but SW stack quality drops, something is wrong in cryptoeconomy, probably because of incorrect incentivies and/or penalities on various quality activities.
+   
+   Metrics of the SW stack quality must be formed and automatic agent must be developed to check these metrics on a regular basis. These metrics (indicators) can come from different level. They can be chosen from the high level SW quality indicator set. They can also be micro indicators about execution efficiency, e.g., build time, CI, dev branch regression etc.
    
 # Implementation considerations
 
