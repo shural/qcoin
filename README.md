@@ -106,3 +106,5 @@ There are a few considerations in this design of consensus protocol (in other wo
 4. Notification. Each inhabitant should receive a daily report of his/her balance. A NPC like agent can be implemented to scan through the full blockchain and accumulate efforts related to certain (anonymous) inhabitant and send over the balance. However because the real identity of the inhabitant is encrypted, the NPC agent can only post all balances in a public billboard.
 
 5. Must note that the intention is not to move the properties onto the blockchain. Instead, each "transcation" in the chain includes a pointer linking to the corresponding physical records in whichever systems.
+
+6. JIRA support is critical since all major activities could have been tracked in JIRA. What about develop a Chrome extension which could monitor JIRA activities and act as a qcoin agent? Note the agent is now running in a sandbox which has no access to local host storage and/or local OS services so the operations on blockchain might be a challenge.
