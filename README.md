@@ -3,6 +3,7 @@ Cryptocurrency for project Apogeios. Value of the currency system grows as the q
 
 2AM, 3/18 Shanghai time, woke up. Thanks to dearest Budha. All of a sudden, the ideas just swamped in from nowhere.
 
+# why blockchain?
 There are two major challenges to lead Apogeios inhabitants through the transformation.
 1. Awareness of quality and what exactly quality means for a genearl SW stack and a good SW ecosystem. In most cases, the inhabitants skip necessary pondering of quality not because they do not care or they are ignorant. Instead, they do not know exactly what quality means and what possible measurements for quality improvements.
 2. Encouragement of extra efforts (always in risk of delaying of workload at hand) for better quality. Everyone rushes for getting things done faster for shorter term targets while the flaws usually fire back sooner and later and will incur more work days to fix them.
@@ -15,11 +16,12 @@ Besides quality improvement efforts would be rewarded as a balance increase, uni
 
 The decentralized ledger plays as a place to store all quality efforts. It helps every inhabitants to view what's going on in the society. There are various types of activities aiming at quality improvement. These activities happens everywhere in the stack. The underlying blockchain mandates a broadcast of these activities because if you do not do, the activities would not be appreciated, be rectified and stored in the chain. This is soemthing like ISFS and it's actually the Modal, so it makes it easy to develop a Viewer to zoom in/out the evovlement of Apogeios quality.
 
-Another subtle benefit reside in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold. In other words, this is essentially the direct mapping from total value of the cryptocurrency economy to the sense of quality in Apogeios society.
+Another subtle benefit resides in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality and the recognition/appreciation of others on your efforts. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold. In other words, this is essentially the direct mapping from total value of the cryptocurrency economy to the sense of quality in Apogeios society.
+
+Last but not least, traceability if you know what I mean.
 
 # Activities
-Major types of activities/efforts ... Literally all engineering activities and associated decisions have more or less impact on quality. Pointers to these activities and decisions need to be put on the blockchain.
-
+Literally all engineering activities and associated decisions have more or less impact on quality. Pointers to these activities and decisions need to be put on the blockchain. This is an obvious connection/bridge between the cryptoeconomy and the Earth. Let's see how these engineering activities can be mapped to the economic behaviors in the cryptoeconmy A few examples of these engineering activities,
 * Design review
 * Code review/inspection
 * Dev ULT review
@@ -43,6 +45,8 @@ Major types of activities/efforts ... Literally all engineering activities and a
 * Continuous integration as check-ins of smaller granularity
 * Accuracy of documentation
 * ......
+
+   There are more complicated situations beyond atomic activities described above. One example is that differnt group of inhabitants have different and sometimes contraray perspectives driving these activities in different order and differetn priority. Clearly the impact on quality would be different. How to map this difference is TBD.
    
 # Consensus protocol
 There are a few considerations in this design of consensus protocol (in other words, rules to enforce in the crypto economy).
@@ -75,8 +79,8 @@ There are a few considerations in this design of consensus protocol (in other wo
 
    This is an interesting experiment to pratice some rigid logic/science in management art. Psychological safety could be a major concern for all inhabitants. Inhabitants could easily connect the amount of cryptocurrency in their balance account to their performance on the Earth. On the other hand, if inhabitants take this easy as a game w/o concerns of real on the Earth penalities and rewards, it makes it easy for the quality sense interlization.
    
-   There is argument about a direct mapping from on-chain identity to off-chain real identity on Earth is more effective for promoting sense of quality. The thinking claims authorities on Earth can better recognize those who have more balance and discipline those who have less. This essentially discourages the innate motivation of being better.
-
+   There is argument about a direct mapping from on-chain identity to off-chain real identity on Earth is more effective for promoting sense of quality. The thinking claims authorities on Earth can better recognize those who have more balance and discipline those who have less. This essentially discourages the innate motivation/pride of being better.  And this is against the confidentiality.
+   
 3. Inflation. In genearl, we want to see the total value of the crptocurrency system increase linearly to the population of inhabitants. It does not have to be similar to the knowledge explosion people see on the Earth, because at least internal quality efforts would be getting harder and harder, and contribution from internalization would be approaching to zero. However the growth of ecosystem could be explosive, which offset the other two contributors.
 
 4. Wire money. Inhabitants get incentives from doing extra/better work about quality, and receive pelnaties for doing counter things. Wiring moneny among them, on the other hand, does not carry explicit meaning. Could it be just something like a master coaching an apprentice passing knowledge and now in this case it's the cryptocurrency?
@@ -94,8 +98,19 @@ There are a few considerations in this design of consensus protocol (in other wo
    The seperation of cryptoeconomy from the things on Earth is actually a good thing. This opens an opporutnity to identify the discrepencies. For example, if the total value of crytoeconomy grows but SW stack quality drops, something is wrong in cryptoeconomy, probably because of incorrect incentivies and/or penalities on various quality activities.
    
    Metrics of the SW stack quality must be formed and automatic agent must be developed to check these metrics on a regular basis. These metrics (indicators) can come from different level. They can be chosen from the high level SW quality indicator set. They can also be micro indicators about execution efficiency, e.g., build time, CI, dev branch regression etc.
+   
+7. Keep interests
+   
+   Feel it's necessary to think through how to keep inhabitants' interests in playing with the crypto currency. A currency nobody cares loses its foundation of existence. In the discussion of phychological safety, I talked about the reluntance of reflecting the amount of qcoin account to any concrete recognition/pelnaty on the Earth - because this is simply not fun. However, a practical incentive system must exist to encourage inhabitants continously invest energy in the currency with or without real benefits from the Earth.
+   
+   A few initial thoughts,
+   * A more frequent positive feedback loop 
+   * A mechanism that everyone else can thrumb up or down certain activities - and get incentives as return.
+   * Reguarly posted rank table
    
 # Implementation considerations
+
+![alt text](https://github.com/shural/qcoin/blob/master/High%20level%20architecture.png "High Level Architecture")
 
 1. Apparently this must be a private blockchain as all quality efforts recorded in the chain are confined in the context of Apogeios.
 
@@ -108,3 +123,4 @@ There are a few considerations in this design of consensus protocol (in other wo
 5. Must note that the intention is not to move the properties onto the blockchain. Instead, each "transcation" in the chain includes a pointer linking to the corresponding physical records in whichever systems.
 
 6. JIRA support is critical since all major activities could have been tracked in JIRA. What about develop a Chrome extension which could monitor JIRA activities and act as a qcoin agent? Note the agent is now running in a sandbox which has no access to local host storage and/or local OS services so the operations on blockchain might be a challenge.
+
