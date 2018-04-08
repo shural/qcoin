@@ -81,6 +81,12 @@ There are a few considerations in this design of consensus protocol (in other wo
    
    There is argument about a direct mapping from on-chain identity to off-chain real identity on Earth is more effective for promoting sense of quality. The thinking claims authorities on Earth can better recognize those who have more balance and discipline those who have less. This essentially discourages the innate motivation/pride of being better.  And this is against the confidentiality.
    
+   Protecting psychological safety is of promount priority for an engineering team. Regardless how the crytocurrency system is developed, regular management activities conducted on the Earth is happening day in and day out. What's the marginal benefit of creating another evolving crytocurrency system to push further the management activity by providing the most value of quantiative quality behaviors? It would not be necessary. Instead, the system should be designed in a pull/leader mindset to nurture and cultivate the innate self-esteem and self-pride in the inhabitants. A basic assumption is that every inhabitant has his/her self-esteem and self-pride which could just hibernate - and the acccount balance (even published in an anonymous way) can wake them up.
+   
+   Comparing to hundreds and even thousands of inhabitants, the management team is at a much smaller size - actually the more self organized the inhabitants are, the less managers would be required. So leveraging tranditional management activities to educate the management team to be more quality oriented is possible - and it's not just about the numbers it's about the maturity as well. 
+   
+   Besides, there are two chances to first start with identity confidentiality and then to switch to real identity if it does not work at the first place. If the cryptocurrency system starts with real identity, it's not going to work to switch back to confidentiality because the trust is broken. 
+   
 3. Inflation. In genearl, we want to see the total value of the crptocurrency system increase linearly to the population of inhabitants. It does not have to be similar to the knowledge explosion people see on the Earth, because at least internal quality efforts would be getting harder and harder, and contribution from internalization would be approaching to zero. However the growth of ecosystem could be explosive, which offset the other two contributors.
 
 4. Wire money. Inhabitants get incentives from doing extra/better work about quality, and receive pelnaties for doing counter things. Wiring moneny among them, on the other hand, does not carry explicit meaning. Could it be just something like a master coaching an apprentice passing knowledge and now in this case it's the cryptocurrency?
@@ -101,12 +107,15 @@ There are a few considerations in this design of consensus protocol (in other wo
    
 7. Keep interests
    
-   Feel it's necessary to think through how to keep inhabitants' interests in playing with the crypto currency. A currency nobody cares loses its foundation of existence. In the discussion of phychological safety, I talked about the reluntance of reflecting the amount of qcoin account to any concrete recognition/pelnaty on the Earth - because this is simply not fun. However, a practical incentive system must exist to encourage inhabitants continously invest energy in the currency with or without real benefits from the Earth.
+   Feel it's necessary to think through how to keep inhabitants' interests in playing with the crypto currency. A currency nobody cares loses its foundation of existence. In the discussion of phychological safety, I talked about the reluntance of reflecting the amount of qcoin account to any concrete recognition/pelnaty on the Earth - because this is simply not fun. And essentially the cash-out is also based on the interests in the account balance. 
+   
+   A practical incentive system must exist to encourage inhabitants continously invest energy in the currency with or without real benefits from the Earth. According to Limon's hierachy of social drivers ( (1) utility & tools, (2) content & media, (3) community, and (4) vanity), vanity is good. So how to create a sustaible gaming mechanism to faciliate the vanity is the key to success. 
    
    A few initial thoughts,
    * A more frequent positive feedback loop 
    * A mechanism that everyone else can thrumb up or down certain activities - and get incentives as return.
    * Reguarly posted rank table
+    
    
 # Implementation considerations
 
