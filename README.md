@@ -1,7 +1,10 @@
 # qcoin
 Cryptocurrency for project Apogeios. Value of the currency system grows as the quality of certain media IP based SW stack grows even better, the ecosystem grows stronger and the inhabitants of Apogeios internalizes more sense of quality.
 
-2AM, 3/18 Shanghai time, woke up. Thanks to dearest Budha. All of a sudden, the ideas just swamped in from nowhere.
+# Chronicles
+
+* 2AM, 03/18/2018 Shanghai time, woke up. Thanks to dearest Budha. All of a sudden, the ideas just swamped in from nowhere.
+* 5PM, 05/04/2018 Shanghai time. T - 30 days qcoin on chain.
 
 # why blockchain?
 There are two major challenges to lead Apogeios inhabitants through the transformation.
@@ -18,7 +21,22 @@ The decentralized ledger plays as a place to store all quality efforts. It helps
 
 Another subtle benefit resides in the essence of any currency. Currency is all about trust. In Apogeios application, the trust is a common sense (consensus) of SW quality and the recognition/appreciation of others on your efforts. More inhabitants understand (trust) quality and want to spend more energy in quality efforts, bigger value the currency system will hold. In other words, this is essentially the direct mapping from total value of the cryptocurrency economy to the sense of quality in Apogeios society.
 
-Last but not least, traceability if you know what I mean.
+Last but not least, traceability if you know what it means.
+
+# Similarities
+
+GNOSIS - An Ethereum based platform for prediction market. “Our mission is to build a truly impartial exchange for information aggregation to quantify the future. A permissionless and decentralized platform built on Ethereum, Gnosis is the easiest way to aggregate relevant information from both human and AI agents into one number.”
+
+Prediction market, in essence, aggregates information about the expected outcome of a future event. Instead of depending on a pre-selected polling panel to make decision from potentially biased and subjective interpreation of information, GNOSIS enables EVERYONE to participate in the decision process by contributing what they know and getting incentives from how their information help the final outcome from the decision.
+
+There are a few similarties between GNOSIS and QCOIN,
+* Both believes in the vision of crowdsourced wisdom.
+* Both are based on blockchain, the underlying infrastructure to provide an univeral, decentralized, permissionless and trustless platform.
+
+However, there are key differences,
+* GNOSIS targets a generic platform for prediction market. QCOIN is very much focused on SW quality.
+* GNOSIS core objectives are to build a forecasting tool (universal), offer customized information search (like Google) and setup standard for predictive assets. QCOIN, on the other hand, wants to track and quantify all SW quality activities, use cryptoeconomy to verify/reinforce various existing SW quality metrics/perceptions, and eventually help all Apogieos inhabitants internalize sense of quality.
+* GNOSIS evaluates decision outcome in a seemingly easier way (?). QCOIN has the major challenge in evaluting SW quality and by how much and then use the differences to calibrate the system (think about SGD). 
 
 # Activities
 Literally all engineering activities and associated decisions have more or less impact on quality. Pointers to these activities and decisions need to be put on the blockchain. This is an obvious connection/bridge between the cryptoeconomy and the Earth. Let's see how these engineering activities can be mapped to the economic behaviors in the cryptoeconmy A few examples of these engineering activities,
