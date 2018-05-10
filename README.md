@@ -36,7 +36,7 @@ There are a few similarties between GNOSIS and QCOIN,
 However, there are key differences,
 * GNOSIS targets a generic platform for prediction market. QCOIN is very much focused on SW quality.
 * GNOSIS core objectives are to build a forecasting tool (universal), offer customized information search (like Google) and setup standard for predictive assets. QCOIN, on the other hand, wants to track and quantify all SW quality activities, use cryptoeconomy to verify/reinforce various existing SW quality metrics/perceptions, and eventually help all Apogieos inhabitants internalize sense of quality.
-* GNOSIS evaluates decision outcome in a seemingly easier way (?). QCOIN has the major challenge in evaluting SW quality and by how much and then use the differences to calibrate the system (think about SGD). 
+* GNOSIS evaluates decision outcome in a seemingly easier way (?). QCOIN has the major challenge in evaluting SW quality and by how much and then use the differences to calibrate the system (think about SGD). How to keep inhabitants' interests in playing with QCOIN is another big challenge. 
 
 # Activities
 Literally all engineering activities and associated decisions have more or less impact on quality. Pointers to these activities and decisions need to be put on the blockchain. This is an obvious connection/bridge between the cryptoeconomy and the Earth. Let's see how these engineering activities can be mapped to the economic behaviors in the cryptoeconmy A few examples of these engineering activities,
