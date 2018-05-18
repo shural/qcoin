@@ -3,7 +3,6 @@ import "../Tokens/StandardToken.sol";
 
 
 /// @title Outcome token contract - Issuing and revoking outcome tokens
-/// @author Stefan George - <stefan@gnosis.pm>
 contract OutcomeToken is StandardToken {
     using Math for *;
 
