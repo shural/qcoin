@@ -2,9 +2,7 @@ let Math = artifacts.require("./Utils/Math.sol")
 let EventFactory = artifacts.require("./Events/EventFactory.sol")
 let EtherToken = artifacts.require("./Tokens/EtherToken.sol")
 let CentralizedOracleFactory = artifacts.require("./Oracles/CentralizedOracleFactory.sol")
-//let CategoricalEvent = artifacts.require("./Events/CategoricalEvent.sol")
 let OutcomeToken = artifacts.require("./Tokens/OutcomeToken.sol")
-//let CentralizedOracle = artifacts.require("Oracles/CentralizedOracle.sol")
 
 
 module.exports = function (deployer) {
