@@ -1,0 +1,52 @@
+{
+  "name": "@QCoin/qcoin-contracts",
+  "version": "0.1.0",
+  "description": "Collection of smart contracts for QCoin Quality tracking system",
+  "scripts": {
+    "lint": "eslint .",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "networks": "truffle networks",
+    "test-norpc": "truffle test --network testing",
+    "test": "run-with-testrpc -l 20000000 'truffle test --network testing'",
+    "lint-contracts": "solhint contracts/**/*.sol",
+    "coverage": "solidity-coverage",
+    "injectnetinfo": "node scripts/inject_network_info.js",
+    "extractnetinfo": "node scripts/extract_network_info.js",
+    "resetnetinfo": "truffle networks --clean && node scripts/inject_network_info.js",
+    "measuregasstats": "node scripts/measure_gas_stats.js",
+    "prepublishOnly": "eslint . && node scripts/measure_gas_stats.js && truffle compile && truffle networks --clean && node scripts/inject_network_info.js"
+  },
+  "keywords": [
+    "Ethereum",
+    "Gnosis",
+    "Prediction-Market",
+    "Solidity",
+    "Truffle"
+  ],
+  "author": "nluo",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@digix/tempo": "^0.2.0",
+    "babel-eslint": "^8.0.2",
+    "decimal.js": "^10.0.0",
+    "eslint": "^4.11.0",
+    "eslint-plugin-babel": "^5.0.0",
+    "lodash": "^4.17.4",
+    "npm-prepublish": "^1.2.3",
+    "run-with-testrpc": "^0.3.0",
+    "solhint": "^1.1.10",
+    "solidity-coverage": "^0.4.2",
+    "solmd": "github:cag/solmd",
+    "truffle": "^3.4.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shural/qcoin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shural/qcoin/issues"
+  },
+  "homepage": "https://github.com/shural/qcoin/blob/master/README.md"
+}
