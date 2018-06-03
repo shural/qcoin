@@ -3,8 +3,9 @@ Cryptocurrency for project Apogeios. Value of the currency system grows as the q
 
 # Chronicles
 
-* 2AM, 03/18/2018 Shanghai time, woke up. Thanks to dearest Budha. All of a sudden, the ideas just swamped in from nowhere.
-* 5PM, 05/04/2018 Shanghai time. T - 30 days qcoin on chain.
+* 02AM, 03/18/2018 Shanghai time, woke up. Thanks to dearest Budha. All of a sudden, the ideas just swamped in from nowhere.
+* 05PM, 05/04/2018 Shanghai time. T - 30 days qcoin on chain.
+* 10AM, 06/03/2018 Shanghai time. T + 00 days Initial code merged.
 
 # why blockchain?
 There are two major challenges to lead Apogeios inhabitants through the transformation.
