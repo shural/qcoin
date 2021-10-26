@@ -1,5 +1,5 @@
 # qcoin
-Cryptocurrency for project Apogeios. Value of the currency system grows as the quality of certain media IP based SW stack grows even better, the ecosystem grows stronger and the inhabitants of Apogeios internalizes more sense of quality.
+Cryptocurrency for project Apogeios. Value of the currency system grows as the quality of certain SW stack grows even better, the ecosystem grows stronger and the inhabitants of Apogeios internalizes more sense of quality.
 
 # Chronicles
 
